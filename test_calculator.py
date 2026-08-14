@@ -7,7 +7,7 @@ class TestCalculadora(unittest.TestCase):
 
     def test_sumar_positivos(self):
         """Test suma de números positivos."""
-        self.assertEqual(sumar(3, 5), 9)
+        self.assertEqual(sumar(3, 5), 8)
 
     def test_sumar_negativos(self):
         """Test suma de números negativos."""
